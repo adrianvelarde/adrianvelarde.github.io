@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2">
+
+<title>Adrian Velarde - Portfolio</title>
+
+<link rel="stylesheet" href="css/globalStyle.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="text-lato">
+
+	<div class="container">
+		<div class = "row">
+			<div class="col-xs-6">
+			</div>
+			<div class="col-sm-6 text-right">
+				<h1 class="title-super text-uppercase text-thin">Adrian Velarde</h1>
+				<h4>Software Engineering Student</h4>
+			</div>
+		</div>
+
+		<div class="col-sm-12">
+			<hr>
+		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img></img></a>
+					</div>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar-menu">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html" class="nav-item">HOME<span class="sr-only">(current)</span></a></li>
+						<li><a href="resume.html" class="nav-item">RESUME</a></li>
+						<li><a href="portfolio.html" class="nav-item">PORTFOLIO</a></li>
+						<li><a href="#projects" class="nav-item">PROJECTS</a></li>
+					</ul>
+				</div>
+			</nav>
+
+		<div class = "row">
+			<div class="col-md-12">
+				<h2 id="projects" class="text-muted">Personal Projects</h2>
+			</div>
+		</div>
+
+		<div class = "row text-center">
+			<div class="col-md-6"> <h3>C# Ticket Handler</h3>
+				<img src="media/ticketHandler.jpg" class ="img-responsive center-block" data-toggle="modal" data-target="#ticketHandler" alt="image">
+			</div>
+			<div class="col-md-6"> <h3>C# String Functions</h3>
+				<img src="media/strFunctions.jpg" class ="img-responsive center-block" data-toggle="modal" data-target="#strFunctions" alt="image">
+			</div>
+
+		</div>
+
+		<div class = "row text-center">
+			<div class="col-md-6"> <h3>C# Database Demo</h3>
+				<img src="media/databaseDemo.jpg" class ="img-responsive center-block" data-toggle="modal" data-target="#dbDemo" alt="image">
+				<br>
+			</div>
+		</div>
+		
+	</div>
+	<div class="container-fluid footer">
+		<div class="col-xs-12 text-center">
+			<p>(I feel cool)</p>
+			<p>Built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Bootstrap</strong></p>
+		</div>
+	</div>
+
+
+	<!== Project 1 Modal -->
+	<div class="modal fade" id="ticketHandler" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">C# Ticket Handler</h4>
+				</div>
+				<div class="modal-body">
+					<img src="media/ticketHandler.jpg" class ="img-responsive">
+					This is a basic ticket price calculator and the purpose of the assignment was to demonstrate knowledge of Windows Forms and Controls.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!== Project 2 Modal -->
+	<div class="modal fade" id="strFunctions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">C# String Functions</h4>
+				</div>
+				<div class="modal-body">
+					<img src="media/strFunctions.jpg" class ="img-responsive">
+					The purpose of the assignment was to demonstrate knowledge of String Functions and how to implement them. The program allowed the user to type demo text into the textbox and choose what they want to find. The program returned the number of items based on the user's selection.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!== Project 3 Modal -->
+	<div class="modal fade" id="dbDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">C# Database Demo</h4>
+				</div>
+				<div class="modal-body">
+					<img src="media/databaseDemo.jpg" class ="img-responsive">
+					The purpose of the assignment was to demonstrate knowledge of setting up Databases in Visual Studio and properly linking them to controls. The program allowed the user to select a student from the drop down list and the classes that student is currently enrolled in shows up in the window.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

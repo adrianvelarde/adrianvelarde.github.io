@@ -6,8 +6,8 @@ var HTMLpanelbodyDate = "<div class='pbdate'>%data%</div>";
 var HTMLpanelbodyText = "<div class='pbtext'>%data%</div>";
 
 //Education HTML to be appended
-var HTMLedubodyURL = "<h5><a href ='%data%' target='_blank'>";
-var HTMLedubodyTitle = "%data%</a></h5>";
+var HTMLedubodyURL = "<h4><a href ='%data%' target='_blank'>";
+var HTMLedubodyTitle = "%data%</a></h4>";
 var HTMLedubodyDate = "<div class='date-text pbdate'>%data%</div>";
 var HTMLedubodylocation = "<div class='location-text pbdate'>%data%</div>";
 
@@ -21,17 +21,17 @@ var assignments =
 	[
 		{
 			"title": "Banking App",
-			"details": "Demonstrated use of properties, classes, and seperation of the Business Logic Layer and User Service Layer.",
+			"details": "Applied knowledge of properties, classes, and seperation of the Business Logic Layer and User Service Layer through the proper implementation of Business Rules.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Ticket Handler",
-			"details": "Demonstrated knowledge of Windows Forms.",
+			"details": "Demonstrated knowledge of Windows Forms, properly placing controls, and naming conventions.",
 			"date": "Spring 2015"
 		},
 		{
-			"title": "String Function",
-			"details": "Demonstrated knowledge of String functions.",
+			"title": "String Functions",
+			"details": "Demonstrated knowledge of Strings and their functions.",
 			"date": "Spring 2015"
 		},
 		{
@@ -44,37 +44,37 @@ var assignments =
 	[
 		{
 			"title": "Bubble Sort",
-			"details": "Implemented the Bubble Sort.",
+			"details": "The goal of the assignment was to analyze the speed of the Bubble Sort sorting method on an array of numbers (it's very slow).",
 			"date": "Spring 2015"
 		},
 		{
-			"title": "Stacks",
-			"details": "Implemented a Stack and demonstrates knowledge of Binary Conversions.",
+			"title": "Binary Converter",
+			"details": "An application that implemented a Stack. It allowed the user to enter a number and it displayed the binary equivalent.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Linked Lists",
-			"details": "Implemented Linked Lists and knowledge of pointers.",
+			"details": "The application implemented Linked Lists and allowed users to store, delete, and find numbers in the data structure. It demonstrated knowledge of recursion and pointers.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Binary Tree Word Count",
-			"details": "Implemented a Binary Tree, reads files, parses words, and traverses the tree.",
+			"details": "The application read a text document and put unique words into a Binary Tree, counting any duplicates. It printed a list of the words in alphabetical order and the number of times each word appeared in the document.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Quicksort",
-			"details": "Implemented Quicksort and reverses Arrays.",
+			"details": "The goal of the assignment was to analyze the speed of the Quicksort sorting method on a random array, a sorted array, and a reverse sorted array of 5000 numbers.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Mergesort",
-			"details": "Implemented Mergesort on a Linked List.",
+			"details": "The goal of the assignment was to analyze the speed of the Mergesort sorting method on a random linked list, a sorted linked list, and a reverse sorted linked list of 5000 numbers.",
 			"date": "Spring 2015"
 		},
 		{
 			"title": "Trilink Tree",
-			"details": "Implemented a Trilink Tree that allows inserts, searches, and deletes.",
+			"details": "This was the final project for Data Structures. The assignment was to build a tree with nodes that held one or two values and three possible child nodes. It had to successfully allow inserting, deleting, searching, and printing of the numbers in the tree.",
 			"date": "Spring 2015"
 		}
 	],
@@ -94,13 +94,24 @@ var assignments =
 			"title": "Turtles",
 			"details": "Program that renders turtle graphics and draws shapes in the window.",
 			"date": "Fall 2014"
+		},
+		{
+			"title": "Guessing Game",
+			"details": "GUI application that chooses a random number from 1 to 10 and allows the user 3 chances to try to guess the correct number. It makes use of the tkinter package included with Python 3.",
+			"date": "Summer 2015"
+		},
+		{
+			"title": "Game Tournament",
+			"details": "This was a Python module that used the DB-API to query, insert, and delete information from a PostgreSQL database. The Git Shell was used to test the program as well as maintain the PostgreSQL database.",
+			"date": "Summer 2015"
 		}
+
 	],
 	"HTMLandCSS":
 	[
 		{
-			"title": "Portfolio",
-			"details": "Web page created as a basis for a portfolio.",
+			"title": "My Website",
+			"details": "A website (this one) that I created to exhibit my skill and abilites.",
 			"date": "Spring 2015"
 		}
 	],
@@ -168,6 +179,73 @@ var education =
 			"school":"Udacity",
 			"date":"May 2015",
 			"url":"https://www.udacity.com/course/html5-canvas--ud292"
+		},
+		{
+			"title":"Web Performance Optimization",
+			"school":"Udacity",
+			"date":"May 2015",
+			"url":"https://www.udacity.com/course/website-performance-optimization--ud884"
+		},
+		{
+			"title":"Intro to Relational Databases",
+			"school":"Udacity",
+			"date":"May 2015",
+			"url":"https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}
+	]
+}
+
+var achievements =
+{
+	"awards":
+	[
+		{
+			"title":"Future Game Designer Challenge - 2nd Place",
+			"school":"High School",
+			"date":"Spring 2011"
+		},
+		{
+			"title":"Achievement of Academic Excellence - Videogame Design 2",
+			"school":"High School",
+			"date":"Spring 2012"
+		},
+		{
+			"title":"Achievement of Academic Excellence - Videogame Design 3",
+			"school":"High School",
+			"date":"Spring 2013"
+		},
+		{
+			"title":"Dean's List",
+			"school":"CTC",
+			"date":"Spring 2014"
+		},
+		{
+			"title":"Graduated with Honors",
+			"school":"CTC",
+			"date":"Fall 2014"
+		},
+		{
+			"title":"\"A\" Honor Roll",
+			"school":"TAMUCT",
+			"date":"Spring 2015"
+		},
+		{
+			"title":"National Society of Leadership and Success - Leadership Training Certificate",
+			"school":"TAMUCT",
+			"date":"Spring 2015"
+		}
+	],
+	"societies":
+	[
+		{
+			"title":"Phi Theta Kappa - Member",
+			"school":"CTC",
+			"date":"2014"
+		},
+		{
+			"title":"National Society of Leadership and Success - Member (Presidential Status)",
+			"school":"TAMUCT",
+			"date":"2015"
 		}
 	]
 }
@@ -289,3 +367,35 @@ education.displayCourses = function()
 };
 
 education.displayCourses();
+
+achievements.displayAchievements = function()
+{
+	for(award in achievements.awards)
+	{
+		var formattedName = HTMLpanelbodyTitle.replace("%data%", achievements.awards[award].title);
+		var formattedDate = HTMLedubodyDate.replace("%data%", achievements.awards[award].date);
+		var formattedSchool = HTMLedubodylocation.replace("%data%", achievements.awards[award].school);
+		$("#collapseAwards").append(HTMLpanelbody);
+		$("#collapseAwards").children(".panel-body:last").append(formattedName);
+		$("#collapseAwards").children(".panel-body:last").append(formattedDate);
+		$("#collapseAwards").children(".panel-body:last").append(formattedSchool);
+	}
+};
+
+achievements.displayAchievements();
+
+achievements.displaySocieties = function()
+{
+	for(society in achievements.societies)
+	{
+		var formattedName = HTMLpanelbodyTitle.replace("%data%", achievements.societies[society].title);
+		var formattedDate = HTMLedubodyDate.replace("%data%", achievements.societies[society].date);
+		var formattedSchool = HTMLedubodylocation.replace("%data%", achievements.societies[society].school);
+		$("#collapseSocieties").append(HTMLpanelbody);
+		$("#collapseSocieties").children(".panel-body:last").append(formattedName);
+		$("#collapseSocieties").children(".panel-body:last").append(formattedDate);
+		$("#collapseSocieties").children(".panel-body:last").append(formattedSchool);
+	}
+};
+
+achievements.displaySocieties();

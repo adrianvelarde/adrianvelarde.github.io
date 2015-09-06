@@ -38,7 +38,22 @@ var assignments =
 			"title": "Database Demo",
 			"details": "Demonstrated knowledge of how to set up a Database in Visual Studio and how to link it to controls.",
 			"date": "Spring 2015"
-		}
+		},
+		{
+			"title": "Deterministic Finite State Automata",
+			"details": "Demonstrated knowledge of how to program a Deterministic FSA as well as create regular languages.",
+			"date": "Summer 2015"
+		},
+		{
+			"title": "Deterministic Push Down Automata",
+			"details": "Demonstrated knowledge of how to program a Deterministic PDA as well as create context-free languages.",
+			"date": "Summer 2015"
+		},
+		{
+			"title": "Turing Machine",
+			"details": "Demonstrated knowledge of how to program a Turing Machine as well as understand the rules and concepts behind it.",
+			"date": "Summer 2015"
+		},
 	],
 	"Java":
 	[
@@ -94,11 +109,6 @@ var assignments =
 			"title": "Turtles",
 			"details": "Program that renders turtle graphics and draws shapes in the window.",
 			"date": "Fall 2014"
-		},
-		{
-			"title": "Guessing Game",
-			"details": "GUI application that chooses a random number from 1 to 10 and allows the user 3 chances to try to guess the correct number. It makes use of the tkinter package included with Python 3.",
-			"date": "Summer 2015"
 		},
 		{
 			"title": "Game Tournament",
@@ -227,12 +237,22 @@ var achievements =
 		{
 			"title":"\"A\" Honor Roll",
 			"school":"TAMUCT",
+			"date":"Fall 2014"
+		},
+		{
+			"title":"\"A\" Honor Roll",
+			"school":"TAMUCT",
 			"date":"Spring 2015"
 		},
 		{
 			"title":"National Society of Leadership and Success - Leadership Training Certificate",
 			"school":"TAMUCT",
 			"date":"Spring 2015"
+		},
+		{
+			"title":"\"A\" Honor Roll",
+			"school":"TAMUCT",
+			"date":"Summer 2015"
 		}
 	],
 	"societies":

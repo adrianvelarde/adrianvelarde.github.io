@@ -154,8 +154,17 @@ var education =
 			"degree": "BS",
 			"major": "Computer Information Systems",
 			"url": "http://www.tamuct.edu/",
-			"date": "2014 - present",
-			"gpa": "4.0/4.0"
+			"date": "2014 - 2015",
+			"gpa": "3.94/4.0"
+		},
+		{
+			"title": "University of Southern California",
+			"location": "Los Angeles, CA",
+			"degree": "MS",
+			"major": "Intelligent Robotics",
+			"url": "http://www.usc.edu/",
+			"date": "2016 - present",
+			"gpa": "--/--"
 		}
 	],
 	"courses":

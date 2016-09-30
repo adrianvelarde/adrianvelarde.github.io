@@ -1,0 +1,229 @@
+html
+{
+	position: relative;
+	min-height: 100%;
+}
+
+body
+{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	min-height:100%;
+	color: black;
+	font-size: 16px;
+}
+
+.text-lato{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-weight: 300;
+}
+
+.text-muted{
+	color:#BCBBBB;
+}
+.text-thin{
+	font-weight:100;
+}
+
+.title-super{
+	font-size: 50px;
+}
+
+.title-sub{
+	font-size: 30px;
+}
+.title-logo{
+	margin-top: 20px;
+}
+
+.font-125pct
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 125%;
+}
+
+.font-150pct
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 200%;
+}
+
+.p-15
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 15px;
+}
+
+.p-20
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 150%;
+}
+
+.p-30
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+.p-40
+{
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size: 40px;
+}
+
+.nav-item
+{
+	display: block;
+	width: 100%;
+}
+
+.pad-25
+{
+	padding: 25px;
+}
+
+.pad-h{
+	padding-left: 25px;
+	padding-right: 25px; 
+}
+
+.pad-v{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.pad-0{
+	padding: 0px 0px 0px 0px; 
+}
+
+.mar-0{
+	margin: 0px 0px 0px 0px;
+}
+
+.mar-sides-15{
+	margin: 0px 15px 0px 15px;
+}
+
+.mar-25{
+	margin: 25px;
+}
+
+.mar-v{
+	margin: 3em 0em 0em 0em;
+}
+
+.back-color-f8{
+	background-color: #f8f8f8;
+}
+
+.font-white
+{
+	color: white;
+}
+
+.flyer
+{
+	border-top: 1px solid rgba(0,0,0,0);
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+}
+
+li:hover
+{
+	background-color: rgb(85,100,255);
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 10%;
+	padding-top: 1%;
+	border-top: 1px solid rgb(200,225,255);
+	border-spacing: 5px;
+	font-size: 10px;
+	color: white;
+	background-color: rgb(125,150,255);
+	height: 75px;
+}
+
+.billboard {
+    background: #000 url("img/night-sky-stars-woman-silhouette.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: #FFF; 
+}
+
+@media screen and (min-width: 768px){
+	li 
+	{
+		float:inline;
+	}
+
+	body
+	{
+		padding-top: 100px;
+	}
+	.nav-item
+	{
+		text-align: center;
+		width: 125px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	li 
+	{
+		float:inline;
+	}
+
+	body
+	{
+		padding-top: 100px;
+	}
+	.nav-item
+	{
+		text-align: center;
+		width: 125px;
+	}
+}
+
+.btn-transparent
+{
+	background-color: rgba(0,0,0,0);
+	border-color: white;
+	color: white;
+}
+
+.btn-transparent:hover, .btn-transparent:active
+{
+	background: rgba(255,255,255,0.5);
+	border-color: white;
+	color: white;
+}
+
+.glyph-white
+{
+	color:white;
+}

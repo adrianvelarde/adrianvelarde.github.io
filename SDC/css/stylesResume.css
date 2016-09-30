@@ -1,0 +1,37 @@
+.pbtitle
+{
+  font-size: 16px;
+  color: black;
+}
+
+.pbdate
+{
+  font-style: oblique;
+  text-align: left;
+  color: #BCBBBB;
+}
+
+.pbtext
+{
+  font-style: italic;
+}
+
+.date-text
+{
+  font-style: italic;
+  line-height: 16px;
+  float:left;
+}
+
+.location-text
+{
+  font-style: italic;
+  line-height: 16px;
+  float: right;
+}
+
+.major-text
+{
+  line-height: 16px;
+  float: none;
+}

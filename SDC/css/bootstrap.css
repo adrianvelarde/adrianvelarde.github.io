@@ -4493,22 +4493,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgb(125,150,255);
-  border-color: rgb(200,225,255);
+  background-color: rgb(255,255,255);
+  border-color: rgb(0,0,0);
 }
 .navbar-default .navbar-brand {
   color: #777;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: rgb(200,225,255);
+  color: rgb(150,150,150);
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: rgb(200,225,255);
+  color: rgb(150,150,150);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

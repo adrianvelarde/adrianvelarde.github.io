@@ -13,6 +13,14 @@ body
 	font-size: 10px;
 }
 
+.gradient-blue{
+   	background: rgb(25, 50, 255); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(25, 50, 255), rgb(35, 195, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(25, 50, 255), rgb(35, 195, 255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(25, 50, 255), rgb(35, 195, 255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(25, 50, 255), rgb(35, 195, 255)); /* Standard syntax */
+}
+
 .text-lato{
 	font-family: 'Lato', sans-serif;
 	color: black;
@@ -66,6 +74,18 @@ body
 	margin-right: auto;
 }
 
+.img-sub
+{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.img-logo
+{
+	max-width: 50px;
+	max-height: 50px;
+}
+
 .p-15
 {
 	font-family: 'Lato', sans-serif;
@@ -98,6 +118,16 @@ body
 {
 	display: block;
 	width: 100%;
+}
+
+.pad-10
+{
+	padding: 10px;
+}
+
+.pad-15
+{
+	padding: 15px;
 }
 
 .pad-25
@@ -184,11 +214,11 @@ ul
 	width: 100%;
 	margin-top: 10%;
 	padding-top: 1%;
-	border-top: 1px solid rgb(200,225,255);
+	border-top: 1px solid black;
 	border-spacing: 5px;
 	font-size: 10px;
-	color: white;
-	background-color: rgb(125,150,255);
+	color: black;
+	background-color: #f8f8f8;
 	height: 75px;
 }
 
@@ -212,6 +242,18 @@ ul
 	{
 		text-align: center;
 		width: 125px;
+	}
+
+	.img-sub
+	{
+		max-height: 200px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.img-sub
+	{
+		max-height: 256px;
 	}
 }
 

@@ -22,7 +22,7 @@
 <body class ="text-lato container-fluid">
 	<div id="home" class="">
 		<div class="pad-v">
-			<div class="page-header">
+			<div class="page-header row">
 				<h1 class="title-super text-uppercase text-thin text-right">Adrian's</h1>
 				  <h2 class="text-right">Spiritual Development</h2>
 			</div>
@@ -106,25 +106,27 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-left pull-left" href="#"><img class="img-responsive img-logo" src="img/sun-black.png"></a>
+				<a class="navbar-left pull-left" href="index.html"><img class="img-responsive img-logo" src="img/sun-black.png"></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar-menu">
 				<ul class="nav navbar-nav">
-					<li><a href="#home" class="nav-item">HOME<span class="sr-only">(current)</span></a></li>
+					<li><a href="index.html" class="nav-item">HOME<span class="sr-only">(current)</span></a></li>
 					<li><a href="#services" class="nav-item">SERVICES</a></li>
-					<li><a href="#packages" class="nav-item">PACKAGES</a></li>
+					<li><a href="packages.html" class="nav-item">PACKAGES</a></li>
+					<li><a href="#" class="nav-item">SCHEDULE</a></li>
+					<li><a href="#" class="nav-item">BLOG</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 
-	<div class="row billboard" style="background-image: url('img/black-white-hand-water-drops.jpg')">
+	<div class="row billboard mar-v" style="background-image: url('img/black-white-hand-water-drops.jpg')">
 
 		<div class="col-xs-0 col-sm-3"></div>
 		<div class="col-xs-12 col-sm-6 background-grey-overlay">
-			<div class="text-center font-white page-header"><strong class="font-md">Don't miss out!</strong>
-			<div class="text-center font-white">The next round for the Energy Manipulation Course begins soon:</div>
+			<div class="text-center font-white page-header"><strong class="font-md">Don't miss it!</strong>
+			<div class="text-center font-white">The next Energy Manipulation Course starts soon:</div>
 			</div>
 			<div id="countdown-clock" class="">
 
@@ -150,9 +152,9 @@
 	</div>
 
 
-	<div class="row text-center pad-h pad-v back-color-f8">
+	<div id="services" class="row text-center pad-h pad-v back-color-f8">
 		<div class="mar-v">
-			<h2 id="services">Services</h2>
+			<h2>Services</h2>
 		</div>
 
 		<div class="col-sm-12 mar-v">
@@ -214,7 +216,7 @@
 
 	</div>
 
-	<div class="row gradient-blue pad-25">
+	<div class="row gradient-blue pad-25 mar-v">
 
 		<div class="col-xs-0 col-sm-3"></div>
 		<div class="col-xs-12 col-sm-6 background-grey-overlay">
@@ -234,18 +236,52 @@
 
 	<footer class="footer">
 			<div class="container text-center">
-				<p>
-					<a href="#" class="font-black">Privacy Policy</a>
-					|
-					<a href="#" class="font-black">Contact</a>
-				</p>
-				<p>&copy;&nbsp;<strong>Adrian Velarde</strong> | All Rights Reserved</p>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class=" text-left pad-h"><h4><strong>Adrian Velarde</strong></h4><p>&copy;&nbsp;2016 | All Rights Reserved</p></div>
+					</div>
+				</div>
+
+				<div class="row p-20">
+					<div class="col-xs-6 col-sm-4">
+						<h4>Business</h4>
+						<p>
+							<a href="index.html#services" class="font-black">Services</a>
+						</p>
+						<p>
+							<a href="packages.html" class="font-black">Packages</a>
+						</p>
+						<p>
+							<a href="#" class="font-black">Schedule</a>
+						</p>
+					</div>
+					<div class="col-xs-6 col-sm-4">
+						<h4>Help</h4>
+						<p>
+							<a href="#" class="font-black">Privacy Policy</a>
+						</p>
+						<p>
+							<a href="#" class="font-black">Disclaimers</a>
+						</p>
+					</div>
+
+					<div class="col-xs-6 col-sm-4">
+						<h4>About</h4>
+						<p>
+							<a href="#" class="font-black">Me</a>
+						</p>
+						<p>
+							<a href="#" class="font-black">Contact</a>
+						</p>
+					</div>
+				</div>
+				
 			</div>
 	</footer>
 
 	<script type="text/javascript" src="js/countdown.js"></script>
 	<script>
-		countdown('11/01/2016 7:00:00 PM', ['days', 'hours', 'minutes', 'seconds']);
+		countdown('10/30/2016 12:00:00 AM', ['days', 'hours', 'minutes', 'seconds']);
 	</script>
 </body>
 </html>

@@ -80,6 +80,14 @@ body
 	background-color: #f8f8f8;
 }
 
+.bullets{
+	list-style-type: disc;
+}
+
+.bullets:hover{
+	background-color: white;
+}
+
 li:hover
 {
 	background-color: gainsboro;
@@ -90,6 +98,11 @@ ul
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+.img-clickable:hover{
+	border-color: rgb(200,200,200,.5);
+	background-color: rgb(200,200,200,.5);
 }
 
 .footer

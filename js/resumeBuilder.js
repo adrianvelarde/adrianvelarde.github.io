@@ -5,6 +5,11 @@ var HTMLpanelbodyTitle = "<h4 class='pbtitle'>%data%</h4>";
 var HTMLpanelbodyDate = "<div class='pbdate'>%data%</div>";
 var HTMLpanelbodyText = "<div class='pbtext'>%data%</div>";
 
+var HTMLexpList = "<ul class='experience-list bullets' type='circle'></ul>";
+var HTMLexpTitle = "<h4 class='pbtitle'>%data%</h4>";
+var HTMLexpDate = "<div class='pbdate'>%data%</div>";
+var HTMLexpDetails = "<li class='pbtext'>%data%</li>";
+
 //Education HTML to be appended
 var HTMLedubodyURL = "<h4><a href ='%data%' target='_blank'>";
 var HTMLedubodyTitle = "%data%</a></h4>";
@@ -135,6 +140,35 @@ var assignments =
 	]
 };
 
+var experience = 
+{
+	"jobs":
+	[
+		{
+			"title" : "CGI Technologies & Solutions",
+			"details" : [
+				{
+					"item" : "Used C# WebForms and Bootstrap  to build the Transient Occupancy Tax (TOT) Online Payment portal for San Diego’s Office of the City Treasurer"
+				},
+				{
+					"item" : "Managed maintenance on two C# Webforms applications and provided fixes based on the client's specifications"
+				},
+				{
+					"item" : "Communicated with the Office of the City Treasurer to discover and implement new bugs fixes and features"
+				},
+				{
+					"item" : "Wrote technical documents for application changes and documented change requests"
+				},
+				{
+					"item" : "Used Visual Studio Team Services and Subversion to manage code changes"
+				},
+			],
+			"date": "January 2016 - January 2017",
+			"link": ""
+		}
+	]
+}
+
 var education = 
 {
 	"schools":
@@ -163,7 +197,7 @@ var education =
 			"degree": "MS",
 			"major": "Intelligent Robotics",
 			"url": "http://www.usc.edu/",
-			"date": "2016 - present",
+			"date": "Last Attended: 2017",
 			"gpa": "--/--"
 		}
 	],
@@ -262,6 +296,11 @@ var achievements =
 			"title":"\"A\" Honor Roll",
 			"school":"TAMUCT",
 			"date":"Summer 2015"
+		},
+		{
+			"title":"Graduated Summa Cum Laude",
+			"school":"TAMUCT",
+			"date":"Fall 2015"
 		}
 	],
 	"societies":
@@ -354,6 +393,30 @@ assignments.displayJava();
 assignments.displayPython();
 assignments.displayHTMLandCSS();
 assignments.displayJavaScript();
+
+experience.displayJobs = function()
+{
+	for(job in experience.jobs)
+	{
+		var formattedTitle = HTMLexpTitle.replace("%data%", experience.jobs[job].title);
+		var details = experience.jobs[job].details;
+		var formattedDate = HTMLexpDate.replace("%data%", experience.jobs[job].date);
+		$("#collapseCgi").append(HTMLpanelbody);
+		$("#collapseCgi").children(".panel-body:last").append(formattedTitle);
+		$("#collapseCgi").children(".panel-body:last").append(formattedDate);
+
+		$(".panel-body:last").append(HTMLexpList);
+
+		for(item in details)
+		{
+			console.log(item)
+			var formattedDetails = HTMLexpDetails.replace("%data%", details[item].item);
+			$(".panel-body").children(".experience-list:last").append(formattedDetails);
+		}
+	}
+}
+
+experience.displayJobs();
 
 education.displaySchools = function()
 {
